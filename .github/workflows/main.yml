@@ -20,7 +20,7 @@ jobs:
                   channel: 'stable'
 
             - name: Install dependencies
-              run: flutter pub get'
+              run: flutter pub get
 
             - name: Analyze code
               run: flutter analyze
